@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <style type="text/css">
+    body{
+        margin: 0 auto;
+        width: 100%;
+    }
+    header {
+height: 750px;
+      background-image: url(Banner.png) ;
+      background-repeat: no-repeat;
+    }
+
+    nav {
+   height: 50px;
+width: 100%;
+    }
+.text{
+
+    color: rgb(0, 0, 101);
+}
+ .container-fluid{
+    text-align: center;
+ }
+ article{
+
+
+    height: 2000px;
+background-color: antiquewhite;
+ }
+
+   
+ 
+ .float{
+    margin-left: 30px;
+    float: left;
+ }
+ .color{
+    width: 25px;
+    height: 25px;
+    background-color:orange;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+.text-line{
+    margin:20px;
+}
+.form-select{
+  margin-top:25px;
+}
+.align-items-center{
+  margin-top:25px;
+ margin-left: 30px;
+}
+.margin1{
+  margin:25px;
+}
+.margin2{
+  margin-left: 30px;
+}
+.img{
+  height: 200px;
+  width: 500px;
+}
+.btn{
+  width: 200px;
+margin-left: 500px;
+}
+.btn1{
+  text-align: center;
+}
+  </style>
+</head>
+
+<body>
+  <header class="row col-12">
+
+</header>
+<div class="container" >
+
+
+<nav class="row col-12" >
+  <div class="container-fluid">
+    <h1 class="text ">PHIẾU ĐĂNG KÝ HỌC</h1>
+  </div>
+</nav> 
+
+<article class="container">
+    <div class="row ">
+        <div class="row">
+            <div class="row color col-6"> </div>
+            <div class="col-6 text text-line"><b>THÔNG TIN THÍ SINH</b></div>
+
+        </div>
+        <div class="row float">
+
+       
+        <div class="row g-3 align-items-center col-auto">
+            <span for="inputPassword5" class="form-label">Họ và tên</span>
+       <div class="col-auto">
+        <input type="text" placeholder="Họ và tên" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+      </div>
+      
+      
+    </div>
+      <div class="row g-3 align-items-center col-auto">
+            <span for="inputPassword5" class="form-label">Ngày sinh</sp>
+       <div class="col-auto">
+        <input type= "text" id="inputPassword6" placeholder= "DD/MM/YYYY">
+      </div>
+      
+      
+    </div>
+      <div class="row g-3 align-items-center col-auto">
+            <sapn for="inputPassword5" class="form-label">Giới tính</sapn>
+ 
+      
+            <div class="mb-3">
+    <span></span>
+              <select id="disabledSelect" class="form-select">
+                <option>Nam</option>
+                <option>Nu</option>
+              </select>
+            </div>
+    </div>
+    
+      <div class="row g-3 align-items-center col-auto">
+            <span for="inputPassword5" class="form-label">Dân tộc</span>
+       <div class="col-auto">
+        <input type="text" placeholder="Kinh" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+        
+      </div>
+      
+      
+    </div>
+    </div><!-- float -->
+    <div class="row g-3 align-items-center">
+  
+  <div class="col-4">
+     <span for="inputPassword5" class="form-label">Số CCCD/Chứng minh nhân dân</span>
+    <input type="text" placeholder="123456" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+  </div>
+<div class="col-4">
+     <span for="inputPassword5" class="form-label">Ngày cấp</span>
+    <input type="text" placeholder="DD/MM/YYYY" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+  </div>
+  <div class="col-4">
+     <span for="inputPassword5" class="form-label">Nơi cấp</span>
+    <input type="text" placeholder="Ha Noi,TP HCM" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+  </div>
+</div>
+<div class="margin1">
+   <b for="inputPassword5" class="margin1">Hộ khẩu thường trú (Điền thông tin đầy đủ như trong sổ hộ khẩu)</b>
+</div>
+   
+          <div class="row col-3 margin2">
+    <span></span>
+              <select id="disabledSelect" class="form-select">
+                <option>chọn Tỉnh/Thành Phố </option>
+             
+              </select>
+            </div>
+                  <div class="row col-3 margin2">
+    <span></span>
+              <select id="disabledSelect" class="form-select ">
+                <option>Quận/Huyện</option>
+                <option>Nu</option>
+              </select>
+            </div>
+  
+     <div class="row col-3 margin2">
+    <span></span>
+              <select id="disabledSelect" class="form-select ">
+                <option>Xã/Phường/Thị trấn</option>
+                <option>Nu</option>
+              </select>
+            </div>
+   
+  <div class="row col-2 margin2">
+     <span for="inputPassword5" class="form-label"></span>
+    <input type="text" placeholder="so nha/duong/ngo" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+  </div>
+ </div>
+ 
+   <div class="row align-items-center">
+  
+  <div class="col-3">
+     <span for="inputPassword5" class="form-label">Số điện thoại thí sinh</span>
+    <input type="text" placeholder="091231231" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+  </div>
+
+  <div class="col-3">
+     <span for="inputPassword5" class="form-label">Email thí sinh</span>
+    <input type="text" placeholder="@adasdad.com" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+  </div>
+    <div class="col-3">
+     <span for="inputPassword5" class="form-label">Họ tên phụ huynh/người bảo trợ</span>
+    <input type="text" placeholder="name" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+  </div>
+    <div class="col-3">
+     <span for="inputPassword5" class="form-label">Số điện thoại phụ huynh/người bảo trợ</span>
+    <input type="text" placeholder="09123123" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+  </div>
+</div>
+ <div class="row">
+            <div class="row color col-6"> </div>
+            <div class="col-6 text text-line"><b>THÔNG TIN ĐĂNG KÝ TRƯỜNG CAO ĐẲNG FPT POLYTECHNIC</b></div>
+
+        </div>
+         <div class="row col-5 margin2">
+    <span>Cơ sở nhập học</span>
+              <select id="disabledSelect" class="form-select ">
+                <option>Ha noi</option>
+                <option>Nu</option>
+              </select>
+            </div>
+    <div class="row align-items-center">
+  
+  <div class="col-3">
+     <span for="inputPassword5" class="form-label">Nguyện vọng thứ nhất</span>
+      
+              <select id="disabledSelect" class="form-select">
+                <option>Chuyen Nganh</option>
+                <option>Nu</option>
+              </select>
+            
+  </div>
+
+  <div class="col-3">
+     <select id="disabledSelect" class="form-select">
+                <option>Nganh</option>
+                <option>Nu</option>
+              </select>
+            
+    </div>
+    <div class="col-3">
+     <span for="inputPassword5" class="form-label">Nguyện vọng thứ Hai</span>
+      
+              <select id="disabledSelect" class="form-select">
+                <option>Chuyen Nganh</option>
+                <option>Nu</option>
+              </select>
+            
+  </div>
+
+  <div class="col-3">
+     <select id="disabledSelect" class="form-select">
+                <option>Nganh</option>
+                <option>Nu</option>
+              </select>
+            
+    </div>
+    </div>
+    <div class="row align-items-center">
+   <div class=" row col-6">
+     <span for="inputPassword5" class="form-label">Năm tốt nghiệp THPT hoặc tương đương</span>
+              <select id="disabledSelect" class="form-select">
+                <option>2023</option>
+              
+              </select>
+            
+  </div>
+    <div class=" row col-6 ">
+     <span for="inputPassword5" class="form-label">Năm tốt nghiệp THPT hoặc tương đương</span>
+      
+       <input type="text" placeholder="Trường " id="inputPassword6" class="form-control margin1" aria-describedby="passwordHelpInline">     
+            
+    </div>
+    </div>
+    <div class="row align-items-center">
+         <span for="inputPassword5" class="form-label">Nơi tốt nghiệp</span>
+ <div class=" row col-4">
+
+              <select id="disabledSelect" class="form-select">
+                <option>chọn Tỉnh/Thành Phố</option>
+              
+              </select>
+            
+  </div>
+   <div class=" row col-4">
+   
+              <select id="disabledSelect" class="form-select">
+                <option>Quận/Huyện</option>
+              
+              </select>
+            
+  </div>
+   <div class=" row col-4 ">
+    
+              <select id="disabledSelect" class="form-select">
+                <option>Xã/Phường/Thị trấn</option>
+              
+              </select>
+            
+  </div>
+    </div><div class="row">
+            <div class="row color col-6"> </div>
+            <div class="col-6 text text-line"><b>THÔNG TIN NHẬN GIẤY BÁO KẾT QUẢ</b></div>
+
+        </div>
+        <div class="row align-items-center ">
+<div class="row col-6" >
+ 
+          <span for="inputPassword5" class="form-label margin2">Người nhận</span>
+        <div class="form-check margin2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+   Thí sinh
+  </label>
+</div>
+<div class="form-check margin2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+  <label class="form-check-label" for="flexCheckChecked">
+   Phụ huynh/Người bảo trợ
+  </label>
+</div>
+        </div>
+        <div class="row  col-6">
+ 
+          <span for="inputPassword5" class="form-label margin2">Địa chỉ nhận</span>
+        <div class="form-check margin2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+ Địa chỉ hộ khẩu thường trú
+  </label>
+</div>
+<div class="form-check margin2">
+  <input class="form-check-input" type="checkbox" value="" >
+  <label>
+Khác
+  </label>
+</div>
+  
+    </div>
+     </div><div class="row">
+            <div class="row color col-6"> </div>
+            <div class="col-6 text text-line"><b>TẢI LÊN GIẤY TỜ XÁC THỰC</b></div>
+
+        </div>
+        <div class="row align-items-center">
+<div class="row col-3" >
+ 
+          <span for="inputPassword5" class="form-label margin2">Ảnh CMT/CCCD mặt trước</span>
+    <img src="cccd-mt.png">
+<div class="input-group mb-3">
+  <label class="input-group-text" for="inputGroupFile01">Upload</label>
+  <input type="file" class="form-control" id="inputGroupFile01">
+</div>
+        </div>
+<div class="row col-3" >
+ 
+          <span for="inputPassword5" class="form-label margin2">Ảnh CMT/CCCD mặt sau</span>
+    <img src="cccd-ms.png">
+<div class="input-group mb-3">
+  <label class="input-group-text" for="inputGroupFile01">Upload</label>
+  <input type="file" class="form-control" id="inputGroupFile01">
+</div>
+
+        </div><div class="row col-5" >
+ 
+          <span for="inputPassword5" class="form-label margin2">Ảnh CMT/CCCD mặt sau</span>
+   <img src="bang-tot-nghiep-thpt.png" class="img" alt="...">
+<div class="input-group mb-3">
+  <label class="input-group-text" for="inputGroupFile01">Upload</label>
+  <input type="file" class="form-control" id="inputGroupFile01">
+</div>
+        </div>
+            <div class="row  col-6">
+ 
+        
+        <div class="form-check margin2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+Tôi xin cam đoan những lời khai của tôi trên phiếu đăng ký này là đúng sự thật. Nếu sai tôi hoàn toàn chịu trách nhiệm và nhận xử lý theo Quy chế tuyển sinh cao đẳng hiện hành
+  </label>
+</div>
+<div class="form-check margin2">
+  <input class="form-check-input" type="checkbox" value="" >
+  <label>
+Tôi đã đọc kỹ và cam kết tuân thủ Quy định tài chính của nhà trường
+  </label>
+</div>
+  
+    </div>
+    </div>
+    <div class="row">
+      <button type="button" class="btn btn-dark ">GUI HO SO DANG KY</button>
+    </div>
+    
+   
+</article>
+
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</htm
