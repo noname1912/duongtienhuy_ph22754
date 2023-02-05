@@ -1,0 +1,22 @@
+body{
+    width: 1000px;
+    margin:0 auto;
+}
+header{
+    width: 975px;
+    height:500px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat; 
+}
+
+.css-article{
+width:975px;
+height: 50px;
+border-bottom: 1px solid black;
+}
+footer{
+    width: 975px;
+    height: 40px;
+    background-color:aqua;
+    text-align: center;
+}
